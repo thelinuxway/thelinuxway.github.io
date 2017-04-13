@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Terminal Introduction"
 date:   2016-12-05 23:20:07 +0100
 categories: jekyll update

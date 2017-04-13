@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "[draft]The Linux boot process"
 date:   2016-12-10 23:20:07 +0200
 categories: jekyll update
