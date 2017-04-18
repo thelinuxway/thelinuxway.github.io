@@ -22,7 +22,13 @@ Permissions cannot protect you in any case against a root user or an amministrat
 
 #### **Appearance:**
 
-A way to indicate permissions is to use 3 letters `rwx` (**Symbolic notation**). When the letter is present it means you can:
+- **Symbolic notation** (e.g. `rwx`)
+- **Numeric notation** (e.g. `755`, we'll talk later)
+
+
+
+#### _**Symbolic notation:**_
+it uses 3 letters `rwx`. When the letter is present it means you can:
 - `r` = Read (see the file in the directory and display the content)
 - `w` = Write (edit or delete the file)
 - `x` = eXecute (without this you cannot execute scripts or executables)
@@ -82,7 +88,7 @@ total 12
 drwxr-xr-x. 2 myUser myGroup 4096 Nov 13 23:54 aDirectory
 ```
 
-#### **Numeric notation:**
+#### _**Numeric notation:**_
 With the _chmod_ command could be useful to have a shorter alternative (yep, we're lazy people).
 We can assign a number to every option:
 
